@@ -50,7 +50,10 @@ Find a regular expression that will match a student number, based on the additio
  
 `Unless the way your regular expression works is obvious, please explain how it works, e.g. this here will match the character and that here makes sure it also works if there is no character in front of the number.`
 
-**Answer:** Replace this text with your answer.
+**Answer:** //[a-z]\d{8}/g
+So the first letter was "g" of the student number was written in small letters and followed by the rest,
+in this case the code will appear as indicated since the first letter is in lower case.
+
 
 #### Question 3
 
@@ -59,7 +62,11 @@ Find a regular expression that will match a student number, based on the additio
  
 `Unless the way your regular expression works is obvious, please explain how it works.`
 
-**Answer:** Replace this text with your answer.
+**Answer:** /[a-zA-Z]\d{8}/g.
+In this question I will assume that the letters before "G" are (AbcDeF), to mean that the
+letters can either be in capital or small, not specified then followed by the student number starting 
+with "G" 
+
 
 #### Question 4a
 
@@ -69,8 +76,10 @@ Example: 0421 / 200 40, +49 421 200 40
  
 `It's obvious, but just to spell it out: For this question, you should think about different ways of writing down a phone number. It's not about trying to come up with as many phone number as you can.`
 
-**Answer:** Replace this text with your answer.
-
+**Answer:** 0176 / 486 51, +49 176 581 486 51
+The first part of the number starts by selecting the code and 3 numbers of my German Number.
+The second part first part picks the last part 5 digits of my German number, hence 
+the second part of the question has all my German digits, looks nice. 
 
 #### Question 4b
 

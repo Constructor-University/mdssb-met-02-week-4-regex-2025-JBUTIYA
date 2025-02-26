@@ -412,7 +412,10 @@ out the letter altogether. Find a regular expression that will match a
 student number, based on the additional information presented in this
 question.</p>
 <p><code>Unless the way your regular expression works is obvious, please explain how it works, e.g. this here will match the character and that here makes sure it also works if there is no character in front of the number.</code></p>
-<p><strong>Answer:</strong> Replace this text with your answer.</p>
+<p><strong>Answer:</strong> //[a-z]/g So the first letter was “g” of the
+student number was written in small letters and followed by the rest, in
+this case the code will appear as indicated since the first letter is in
+lower case.</p>
 </div>
 <div id="question-3" class="section level4">
 <h4>Question 3</h4>
@@ -422,7 +425,10 @@ will not form part of their degree classification. Find a regular
 expression that will match a student number, based on the additional
 information presented in this question.</p>
 <p><code>Unless the way your regular expression works is obvious, please explain how it works.</code></p>
-<p><strong>Answer:</strong> Replace this text with your answer.</p>
+<p><strong>Answer:</strong> /[a-zA-Z]/g. In this question I will assume
+that the letters before “G” are (AbcDeF), to mean that the letters can
+either be in capital or small, not specified then followed by the
+student number starting with “G”</p>
 </div>
 <div id="question-4a" class="section level4">
 <h4>Question 4a</h4>
@@ -430,7 +436,11 @@ information presented in this question.</p>
 write them down as your answer to this question (one per line).</p>
 <p>Example: 0421 / 200 40, +49 421 200 40</p>
 <p><code>It&#39;s obvious, but just to spell it out: For this question, you should think about different ways of writing down a phone number. It&#39;s not about trying to come up with as many phone number as you can.</code></p>
-<p><strong>Answer:</strong> Replace this text with your answer.</p>
+<p><strong>Answer:</strong> 0176 / 486 51, +49 176 581 486 51 The first
+part of the number starts by selecting the code and 3 numbers of my
+German Number. The second part first part picks the last part 5 digits
+of my German number, hence the second part of the question has all my
+German digits, looks nice.</p>
 </div>
 <div id="question-4b" class="section level4">
 <h4>Question 4b</h4>
