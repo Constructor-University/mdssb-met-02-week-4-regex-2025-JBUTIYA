@@ -87,4 +87,6 @@ Find a regular expression that matches all of the different phone number formats
  
 `Unless the way your regular expression works is obvious, please explain how it works.`
 
-**Answer:** Replace this text with your answer.
+**Answer:** /[\a{3,}]\d[{3}]\d[{2}]\d[{2}]\d[{3}]\d[{3}]\d[{3}}\d[{2}]/g
+The code comes out to be alittle longer due to the grouping of the German
+Number as elastrated in question 4a.
